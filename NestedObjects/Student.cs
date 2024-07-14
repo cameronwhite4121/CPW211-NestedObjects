@@ -35,6 +35,10 @@ namespace NestedObjects
 		/// </summary>
 		public string PhoneNumber { get; set; }
 		/// <summary>
+		/// The students assigned advisor
+		/// </summary>
+		public Advisor StudentAdvisor { get; set; }
+		/// <summary>
 		/// Students date of birth (not including time)
 		/// </summary>
 		public DateOnly DateOfBirth { get; set; }
