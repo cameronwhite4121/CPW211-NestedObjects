@@ -14,19 +14,19 @@ namespace NestedObjects
 		/// <summary>
 		/// Advisors name in the format - First, Last name.
 		/// </summary>
-		public string FullName { get; set; }
+		public string? FullName { get; set; }
 		/// <summary>
 		/// Advisors work email.
 		/// </summary>
-		public string Email { get; set; }
+		public string? Email { get; set; }
 		/// <summary>
 		/// Which building and room number
 		/// </summary>
-		public string OfficeLocation { get; set; }
+		public string? OfficeLocation { get; set; }
 		/// <summary>
 		/// The students assigned advisor
 		/// </summary>
-		public Advisor StudentAdvisor {  get; set; } 
+		public Advisor? StudentAdvisor {  get; set; } 
 
 	}
 }
